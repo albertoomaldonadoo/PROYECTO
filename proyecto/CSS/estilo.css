@@ -45,7 +45,7 @@ body {background-color: rgb(0, 0, 0);
 
 nav {font-family: titulo;
     font-size: 50%;
-    padding: 15px;
+    padding: 12px;
     position: fixed;}
 #nav-enlace {
     display: inline-block;
@@ -61,16 +61,18 @@ nav {font-family: titulo;
 }
 /*****************HERO SECCION*********************/
 
-#hero {background-image: url(../IMG/39f752fce95b45f17a04d0b6dd19abad.jpg);
-        height: 40vh;  /* Forzar el alto de la hero para ver la foto */
-        background-position: 50%;  /* Donde esta el punto de interes de la foto para que recorte y mantega ese punto */
-        font-family: titulo;
-        color: rgb(0, 255, 85);
-        font-size: 1,3em;
-        padding-left: 12px;
-        padding-top: 9px;
-        padding: 15px;
-        text-align:end;}
+#hero {background-image: url(../VIDEO/pexels-alexandr-11451052-_Original_.gif);
+        height: 30vh;  /* Forzar el alto de la hero para ver la foto */
+        background-position: 50%;
+        padding-top: 30%;  /* Donde esta el punto de interes de la foto para que recorte y mantega ese punto */
+}
+
+#herotexto {
+    font-family: subtitulos;
+    color: rgb(0, 255, 85);
+    font-size: 2em;
+    text-align:center;
+}
 
 blockquote {border-left: 6px solid rgb(0, 255, 85);
                 padding: 4px;
