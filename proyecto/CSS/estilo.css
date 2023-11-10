@@ -61,10 +61,13 @@ nav {font-family: titulo;
 }
 /*****************HERO SECCION*********************/
 
-#hero {background-image: url(../VIDEO/pexels-alexandr-11451052-_Original_.gif);
+#hero {background-image: url(../VIDEO/ef06fac97905b3bbd7e747e634a4bf9f.gif);
         height: 30vh;  /* Forzar el alto de la hero para ver la foto */
         background-position: 50%;
-        padding-top: 30%;  /* Donde esta el punto de interes de la foto para que recorte y mantega ese punto */
+        padding-top: 30%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;  /* Donde esta el punto de interes de la foto para que recorte y mantega ese punto */
 }
 
 #herotexto {
