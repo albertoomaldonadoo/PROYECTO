@@ -36,12 +36,12 @@ body {background-color: rgb(0, 0, 0);
     font-family: textonormal;
     background-image: url(../IMG/samuel-richard-UWY8nGROvbk-unsplash.jpg);}
 
-#wrapper {width: 68%;
-        margin: auto;
-        background-color: rgb(0, 0, 0);}
+#wrapper {width: 70%;
+        margin: auto;}
 
 
 /*********ESTILO DE BARRA DE NAVEGACION **********/
+
 
 nav {font-family: titulo;
     font-size: 50%;
@@ -59,7 +59,9 @@ nav {font-family: titulo;
     background-color: rgb(15, 15, 15);
     font-size: 8px;
 }
+
 /*****************HERO SECCION*********************/
+
 
 #hero {background-image: url(../VIDEO/ef06fac97905b3bbd7e747e634a4bf9f.gif);
         height: 30vh;  /* Forzar el alto de la hero para ver la foto */
@@ -75,14 +77,25 @@ nav {font-family: titulo;
     color: rgb(0, 255, 85);
     font-size: 2em;
     text-align:center;
+    margin: 70px;
+    padding: 30px;
 }
+
+
+/****************ESTILO BLOCKQUOTE********/
+
 
 blockquote {border-left: 6px solid rgb(0, 255, 85);
                 padding: 4px;
                 font-style: italic;
                 background-color: rgb(15, 15, 15);} 
 
+#block1 {text-align: center;}
+#block2 {text-align: center;}
+#block3 {text-align: center;}
 
+
+/***********ESILO PRIMER APARTADO INTRODUCCION*********/
 
 
 #INTRODUCTION1 {text-align: center;
@@ -91,8 +104,12 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
                 color: rgb(0, 255, 85);
                 border: 2px solid rgb(45, 41, 41);
                 border-radius: 40px 40px 40px 40px;
-                padding: 12px;
+                padding: 20px;
                 box-shadow: -5px 6px 6px rgb(31, 146, 56);}
+
+
+
+/***********ESILO APARTADO HISTORIA DE LA AVIACION*********/
 
 
 #HISTORY1 {text-align: center;
@@ -101,8 +118,12 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
                 color: rgb(0, 255, 85);
                 border: 2px solid rgb(45, 41, 41);
                 border-radius: 40px 40px 40px 40px;
-                padding: 12px;
+                padding: 20px;
                 box-shadow: -5px 6px 6px rgb(31, 146, 56);}
+
+
+
+/***********ESTILO APARTADO DE TIPOS DE AVIONES*********/
 
 
 #TYPES1 {text-align:center;
@@ -111,8 +132,49 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
                 color: rgb(0, 255, 85);
                 border: 2px solid rgb(45, 41, 41);
                 border-radius: 40px 40px 40px 40px;
-                padding: 12px;
+                padding: 20px;
                 box-shadow: -5px 6px 6px rgb(31, 146, 56);}
+
+
+#IMAGENTEXTO {width: 30%;
+                float: left;
+                margin-top: 9%;
+                margin-right: 20px;}
+
+
+/***********ESTILO APARTADO DE VENTAJAS Y DESVENTAJAS*********/
+
+
+#OPINION1 {text-align: center;
+    font-size: 126%;
+    font-family: subtitulos;
+    color: rgb(0, 255, 85);
+    border: 2px solid rgb(45, 41, 41);
+    border-radius: 40px 40px 40px 40px;
+    padding: 20px;
+    box-shadow: -5px 6px 6px rgb(31, 146, 56);}
+
+#OPINION2 {text-align:left;
+        font-size: 126%;
+        color: rgb(255, 51, 0);}
+
+#OPINION3 {text-align:left;
+        font-size: 126%;
+        color: rgb(255, 51, 0);}
+
+#OPINION4 {text-align:left;
+            color: rgb(238, 255, 0);}
+
+#fots8 {display: block;
+        margin: auto;
+        width: 50%;
+        border: 2px solid rgb(45, 41, 41);
+        border-top: 40px;
+        border-radius: 40px 40px 40px 40px;
+        padding: 18px;
+        box-shadow: -5px 6px 6px rgb(31, 146, 56)}
+
+/***********ESTILO APARTADO DE VIDEOS*********/
 
 
 #GALLERY1 {text-align: center;
@@ -121,19 +183,14 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
                 color: rgb(0, 255, 85);
                 border: 2px solid rgb(45, 41, 41);
                 border-radius: 40px 40px 40px 40px;
-                padding: 12px;
+                padding: 20px;
                 box-shadow: -5px 6px 6px rgb(31, 146, 56);}
 
 
 
-#OPINION1 {text-align: center;
-                font-size: 126%;
-                font-family: subtitulos;
-                color: rgb(0, 255, 85);
-                border: 2px solid rgb(45, 41, 41);
-                border-radius: 40px 40px 40px 40px;
-                padding: 12px;
-                box-shadow: -5px 6px 6px rgb(31, 146, 56);}
+
+/***********ESTILO APARTADO DE GALERIA*********/
+
 
 #IMAGES1 {text-align: center;
                 font-size: 126%;
@@ -141,41 +198,49 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
                 color: rgb(0, 255, 85);
                 border: 2px solid rgb(45, 41, 41);
                 border-radius: 40px 40px 40px 40px;
-                padding: 12px;
+                padding: 20px;
                 box-shadow: -5px 6px 6px rgb(31, 146, 56);}
 
-#IMAGESOFPLANES {padding: 5% 0;}
 
-#IMAGENTEXTO {width: 30%;
-            float: left;
-            margin-top: 9%;
-            margin-right: 16px;}
-
-
-#block1 {text-align: center;}
-#block2 {text-align: center;}
-#block3 {text-align: center;}
+#IMAGESOFPLANES {padding: 5% 0;
+    padding: 12px;
+    margin-top: 13px;}
 
 
 
-#OPINION2 {text-align:left;
-                font-size: 126%;
-                color: rgb(255, 51, 0);}
-                    
-#OPINION3 {text-align:left;
-                font-size: 126%;
-                color: rgb(255, 51, 0);}
 
-#OPINION4 {text-align:left;
-                    color: rgb(238, 255, 0);}
+/***********ESTILO APARTADO DENETRO DE GALERIA EN COLUMNA*********/
 
-#VIDEO1 {text-align: center;}
 
-#footer {font-size: 70%;}
+#gallery img {width: 100%;}
+
+.grid-4 {display: grid;
+        grid-template-columns: auto auto auto auto;}
+
+#gallery {padding: 5% 0;}
+
+.col-4 { border: 1.4px solid rgb(45, 41, 41);
+        border-radius: 40px 40px 40px 40px;
+        padding: 20px;
+        box-shadow: -5px 3px 3px rgb(31, 146, 56);}
+
+
+/***************as************/
+
+#VIDEO1 {display: block;
+        margin-left: auto;}
+
+
+/**************ESTILO DEL FOOTER*********/
+
+
+#footer  {font-size: 70%;}
 #footer1 {font-size: 70%;}
 #footer2 {font-size: 70%;}
 #footer3 {font-size: 70%;}
 #footer4 {font-size: 70%;}
+
+
 /*************RESPONSIVILIDAD***************/
 @media only screen and (width<650px) {
     #wrapper {width: 100%;}
@@ -183,4 +248,5 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
         color: rgb(0, 255, 85);
         padding-left: 6px;
         padding-top: 5px;}
+    .foto1 {grid-template-columns: 100%;}
 }
