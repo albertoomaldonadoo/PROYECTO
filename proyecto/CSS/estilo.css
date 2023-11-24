@@ -64,12 +64,12 @@ nav {font-family: titulo;
 
 
 #hero {background-image: url(../VIDEO/ef06fac97905b3bbd7e747e634a4bf9f.gif);
-        height: 30vh;  /* Forzar el alto de la hero para ver la foto */
+        height: 30vh;  
         background-position: 50%;
         padding-top: 30%;
         width: 100%;
         background-repeat: no-repeat;
-        background-size: cover;  /* Donde esta el punto de interes de la foto para que recorte y mantega ese punto */
+        background-size: cover;  
 }
 
 #herotexto {
@@ -186,7 +186,30 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
                 padding: 20px;
                 box-shadow: -5px 6px 6px rgb(31, 146, 56);}
 
+.video1 { border: 1px solid rgb(45, 41, 41);
+        border-radius: 40px 40px 40px 40px;
+        padding: 20px;
+        box-shadow: -5px 3px 3px rgb(31, 146, 56);}
 
+
+.albertovideos {display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 70px;}
+
+#GALLERY video {width: 100%;}
+
+#GALLERY {padding: 5% 0;}
+
+.botonvideos {display: block;
+            margin: auto;
+            background-color: black;
+            border: 2px solid rgb(31, 146, 56);
+            color: rgb(31, 146, 56);
+            padding: 10px;
+            font-weight: bold;}
+
+.botonvideos button:hover {background-color:  rgb(31, 146, 56); 
+                            color: blue;}
 
 
 /***********ESTILO APARTADO DE GALERIA*********/
@@ -204,7 +227,8 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
 
 #IMAGESOFPLANES {padding: 5% 0;
     padding: 12px;
-    margin-top: 13px;}
+    margin-top: 13px;
+    margin-bottom: 20px;}
 
 
 
@@ -215,20 +239,173 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
 #gallery img {width: 100%;}
 
 .grid-4 {display: grid;
-        grid-template-columns: auto auto auto auto;}
+        grid-template-columns: auto auto auto auto;
+        margin-top: 70px;}
 
 #gallery {padding: 5% 0;}
 
-.col-4 { border: 1.4px solid rgb(45, 41, 41);
+.col-4 { border: 1px solid rgb(45, 41, 41);
         border-radius: 40px 40px 40px 40px;
         padding: 20px;
         box-shadow: -5px 3px 3px rgb(31, 146, 56);}
 
+.botonfotos {display: block;
+            margin: auto;
+            background-color: rgb(31, 146, 56);
+            color:black;
+            padding: 10px;
+            }
+
+#gallery img:hover {opacity: 1;}
 
 /***************as************/
 
 #VIDEO1 {display: block;
         margin-left: auto;}
+
+/***********ESTILO APARTADO DE REDES SOCIALES*********/
+
+#REDESSOCIALES1 {text-align: center;
+            font-size: 126%;
+            font-family: subtitulos;
+            color: rgb(0, 255, 85);
+            border: 2px solid rgb(45, 41, 41);
+            border-radius: 40px 40px 40px 40px;
+            padding: 20px;
+            box-shadow: -5px 6px 6px rgb(31, 146, 56);}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.instagram {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    fill: #cc39a4;
+}
+
+.card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.twitter {
+    margin-top: 1.5em;
+    margin-left: -.9em;
+    fill: #03A9F4;
+}
+
+.card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.github {
+    margin-top: -.6em;
+    margin-left: 1.2em;
+}
+
+.card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.discord {
+    margin-top: -.9em;
+    margin-left: -1.2em;
+    fill: #8c9eff;
+}
+
+.card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #cc39a4;
+}
+
+.card1:hover .instagram {
+    fill: white;
+}
+
+.card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #03A9F4;
+}
+
+.card2:hover .twitter {
+    fill: white;
+}
+
+.card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+}
+
+.card3:hover .github {
+    fill: white;
+}
+
+.card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #8c9eff;
+}
+
+.card4:hover .discord {
+    fill: white;
+}
+
+
+
+
+
+
+
 
 
 /**************ESTILO DEL FOOTER*********/
@@ -241,12 +418,23 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
 #footer4 {font-size: 70%;}
 
 
-/*************RESPONSIVILIDAD***************/
+
+/*************RESPONSIVILIDAD TABLET***************/
+
+
+@media only screen and (width<900px) {
+    .grid-4 {grid-template-columns: 50% 50%;}
+}
+
+
+/*************RESPONSIVILIDAD MOVIL***************/
+
+
 @media only screen and (width<650px) {
     #wrapper {width: 100%;}
     #hero {font-size: 35%;
-        color: rgb(0, 255, 85);
-        padding-left: 6px;
-        padding-top: 5px;}
-    .foto1 {grid-template-columns: 100%;}
+            color: rgb(0, 255, 85);
+            padding-left: 6px;
+            padding-top: 5px;}
+    .grid-4 {grid-template-columns: 100%;}
 }
