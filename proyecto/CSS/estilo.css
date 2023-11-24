@@ -436,6 +436,8 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
     border-radius: 90px 5px 5px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
+    display: block;
+    margin: auto;
 }
 
 .instagram {
@@ -453,6 +455,8 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
     border-radius: 5px 90px 5px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
+    display: block;
+    margin: auto;
 }
 
 .twitter {
@@ -470,6 +474,8 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
     border-radius: 5px 5px 5px 90px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
+    display: block;
+    margin: auto;
 }
 
 .github {
@@ -486,6 +492,8 @@ blockquote {border-left: 6px solid rgb(0, 255, 85);
     border-radius: 5px 5px 90px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .2s ease-in-out;
+    display: block;
+    margin: auto;
 }
 
 .discord {
