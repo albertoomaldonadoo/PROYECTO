@@ -306,6 +306,8 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
         margin-top: 65px;
         margin-bottom: 70px;}
 
+
+
 /***********ESTILO APARTADO DE VIDEOS*********/
 
 
@@ -431,6 +433,14 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
 #game1 img {width: 100%;}
 #game1 {padding: 5% 0;}
 
+.textomove {
+    text-align: center;
+    color: rgb(0, 255, 242);
+    font-size: 120%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 #textojuego {
     margin-top: 60px;
     margin-bottom: 20px;
@@ -449,19 +459,19 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
     margin-bottom: 20px;
 }
 .grid-3 {display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     margin-top: 86px;
     margin-bottom: 20px;}
 
 .flip-box {
     background-color: transparent;
     width: 300px;
-    height: 200px;
-    border: 1px solid #f1f1f1;
+    height: 275px;
+    border: 1px solid  rgb(0, 255, 242);
     perspective: 1000px;
     margin-bottom: 80px;
-    margin-left: 20px;
-    margin-right: 10px;
+    margin-left: 100px;
+    margin-right: 40px;
   }
   
 
@@ -490,7 +500,7 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
   
 
 .flip-box-front {
-    background-color: #bbb;
+    background-color: black;
     color: black;
   }
   
@@ -576,7 +586,7 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
 
 @media only screen and (width<900px) {
     .grid-4 {grid-template-columns: 50% 50%;}
-    .grid-3 {grid-template-columns: 20% 20% 20% 20%;}
+    .grid-3 {grid-template-columns: 50% 50%;}
     #IMAGENTEXTO {width: 50%;}
 }
 
