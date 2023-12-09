@@ -586,7 +586,7 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
 
 @media only screen and (width<900px) {
     .grid-4 {grid-template-columns: 50% 50%;}
-    .grid-3 {grid-template-columns: 50% 50%;}
+    .grid-3 {grid-template-columns: 50% 50% 50% 50%;}
     #IMAGENTEXTO {width: 50%;}
 }
 
