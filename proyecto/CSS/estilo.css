@@ -427,7 +427,87 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
         margin-left: auto;}
 
 
+/**************ESTILO FLIPBOX************/
+#game1 img {width: 100%;}
+#game1 {padding: 5% 0;}
 
+#textojuego {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#GAME { text-align: center;
+    font-size: 126%;
+    font-family: subtitulos;
+    color: rgb(0, 255, 242);
+    border: 2px solid rgb(45, 41, 41);
+    border-radius: 40px 40px 40px 40px;
+    padding: 20px;
+    box-shadow: -5px 6px 6px rgb(0, 255, 242);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.grid-3 {display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 86px;
+    margin-bottom: 20px;}
+
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+
+.flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+
+.flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+  }
+  
+.flip-box-back {
+    transform: rotateX(180deg);
+  }
 /**************ESTILO DEL FOOTER*********/
 
 .container {
@@ -496,6 +576,7 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
 
 @media only screen and (width<900px) {
     .grid-4 {grid-template-columns: 50% 50%;}
+    .grid-3 {grid-template-columns: 20% 20% 20% 20%;}
     #IMAGENTEXTO {width: 50%;}
 }
 
@@ -510,6 +591,7 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
             padding-left: 6px;
             padding-top: 5px;}
     .grid-4 {grid-template-columns: 100%;}
+    .grid-3 {grid-template-columns: 100%;}
     .video1 {grid-template-columns: 100%;}
     .albertovideos {grid-template-columns: 100%;}
     #IMAGENTEXTO {width: 100%;}
