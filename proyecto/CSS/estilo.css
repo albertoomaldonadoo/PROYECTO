@@ -518,6 +518,78 @@ blockquote {border-left: 6px solid rgb(0, 255, 242);
 .flip-box-back {
     transform: rotateX(180deg);
   }
+/**************ESTILO DE LA OPINION******/
+
+#OPINIONESTILO {text-align: center;
+    font-size: 126%;
+    font-family: subtitulos;
+    color: rgb(0, 255, 242);
+    border: 2px solid rgb(45, 41, 41);
+    border-radius: 40px 40px 40px 40px;
+    padding: 20px;
+    box-shadow: -5px 6px 6px rgb(0, 255, 242);
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+}
+
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 7px;
+    margin: 5px 0 17px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+.container{
+    padding: 16px;
+}
+
+.opinion6 {
+    margin-top: 100px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 /**************ESTILO DEL FOOTER*********/
 
 .container {
@@ -633,6 +705,13 @@ a {text-decoration: none;
     float: none;
     display: block;
     text-align: left;
+    }
+}
+/*************RESPONSIBILIDAD OPINION**************/
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+    width: 100%;
     }
 }
 
