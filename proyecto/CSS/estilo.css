@@ -46,6 +46,13 @@ body {background-color: rgb(0, 0, 0);
 
 /*********ESTILO DE BARRA DE NAVEGACION **********/
 
+#fotonav {
+    margin-left: 200px;
+    margin-top: 10px;
+    position: relative;
+}
+
+
 
 nav {font-family: titulo;
     position: sticky;
@@ -674,6 +681,7 @@ button:hover {
             padding-top: 5px;}
     .grid-4 {grid-template-columns: 100%;}
     .grid-3 {grid-template-columns: 100%;}
+    .flip-box {margin-left: 0;}
     .video1 {grid-template-columns: 100%;}
     .albertovideos {grid-template-columns: 100%;}
     #IMAGENTEXTO {width: 100%;}
